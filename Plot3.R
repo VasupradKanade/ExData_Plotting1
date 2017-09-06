@@ -2,8 +2,6 @@
 ##Course 4-Exploratory Data Analysis: Assignment 1 - Household Power Consumption
 ##Plot3.R
 
-##setwd("C:/Users/vasuprad.kanade/Documents/Vasuprad/Accenture/Official/Trainings/Coursera/Data Science/Assignments/Course 4-Exploratory Data Analysis")
-
 t <- read.table("household_power_consumption.txt", header=TRUE, sep=";", na.strings = "?", colClasses = c('character','character','numeric','numeric','numeric','numeric','numeric','numeric','numeric'))
 
 ## Format date to Type Date
